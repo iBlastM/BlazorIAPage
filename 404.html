@@ -3,7 +3,21 @@
 
 <head>
     <script>
-      sessionStorage.redirect = location.href;
+      (function(){
+        // Obtiene el nombre del repositorio de la URL, por ejemplo, "/BlazorIA/"
+        let path = window.location.pathname;
+        let repo = path.substring(0, path.lastIndexOf("/") + 1);
+
+        // Lee la ruta a la que se intentó acceder, guardada por la redirección 404
+        let redirect = sessionStorage.getItem('redirect');
+        sessionStorage.removeItem('redirect');
+
+        // Si hay una ruta guardada y es diferente a la actual, redirige a ella
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, repo); // Establece la base del historial
+          history.pushState(null, null, redirect.substring(location.origin.length)); // Empuja la ruta correcta
+        }
+      })();
     </script>
     <meta http-equiv="refresh" content="0;URL='/'"></meta>
     <meta charset="utf-8" />
