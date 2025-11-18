@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlazorIA</title>
-    <base href="/BlazorIAPage/" />
+    <base href="/" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -30,6 +30,11 @@
     <script type="module">
         import * as descargas from './js/descargas.js';
         window.descargas = descargas;
+    </script>
+
+    <script type="module">
+        import * as lienzo from './js/lienzo.js';
+        window.lienzo = lienzo;
     </script>
 
     <script src="_framework/blazor.webassembly.js"></script>
