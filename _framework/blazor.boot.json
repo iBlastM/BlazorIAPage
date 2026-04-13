@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "BlazorIA",
   "resources": {
-    "hash": "sha256-nOLkelw2WomrEYG/mtv3wB5mThuahZIfKNC3ChBPRzw=",
+    "hash": "sha256-8SQaZ++HQAc+GS2JBbTrNyhEaEI1imAYw7oMyMXKEPw=",
     "fingerprinting": {
       "Apache.Arrow.y8nx33j9bj.wasm": "Apache.Arrow.wasm",
-      "BlazorIA.uq8yvz7j7a.wasm": "BlazorIA.wasm",
+      "BlazorIA.o797015vdz.wasm": "BlazorIA.wasm",
       "Microsoft.AspNetCore.Components.0xbalavyi0.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.easj1mkkmu.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.sjv700syl7.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -55,7 +55,7 @@
       "System.Text.Json.p0huko8kuj.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.6fc8mhivsn.wasm": "System.Text.RegularExpressions.wasm",
       "System.Threading.d5as1paz1v.wasm": "System.Threading.wasm",
-      "TIA.xitt1nkn45.wasm": "TIA.wasm",
+      "TIA.dzg5ny8le2.wasm": "TIA.wasm",
       "netstandard.072f2uhklr.wasm": "netstandard.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.etgrtk5jba.wasm": "dotnet.native.wasm",
@@ -85,7 +85,7 @@
     },
     "assembly": {
       "Apache.Arrow.y8nx33j9bj.wasm": "sha256-Ds31oclj0mnmK2ka7LbsOlNmRhJUaqa+umOuLsmYA3g=",
-      "BlazorIA.uq8yvz7j7a.wasm": "sha256-OoTRUjGVcF/MFBf+mwtxkxXoIrGS0gcIcMD1IgQwZgI=",
+      "BlazorIA.o797015vdz.wasm": "sha256-nCFibkRlZuq5nUk9N0/Nf+Y3Mw1hOTIBCHq7jaH0ZSs=",
       "Microsoft.AspNetCore.Components.0xbalavyi0.wasm": "sha256-LJja5HqDJ76neGmCXPB64A6g1eEtxPDuyFpwAnomoy8=",
       "Microsoft.AspNetCore.Components.Forms.easj1mkkmu.wasm": "sha256-CvF1L/q6IqHGApvXQIlQiAnm2vuLKD9GKgNyNqOziPo=",
       "Microsoft.AspNetCore.Components.Web.sjv700syl7.wasm": "sha256-eNuwl7Npx2lbz9O33a+vvPltfpGOvPZMj7zuKzlp4as=",
@@ -134,7 +134,7 @@
       "System.Text.Json.p0huko8kuj.wasm": "sha256-V9raMU1eLlOFobNcbdy2MtGtODLjEFwT8B3933PCHhc=",
       "System.Text.RegularExpressions.6fc8mhivsn.wasm": "sha256-HnUA8h1ecFHQb0s78sWuwXe8Hj3YRcgJ37iFBkgIdLI=",
       "System.Threading.d5as1paz1v.wasm": "sha256-YScuqhVFa4UqTzkedjtqxHQFCJcxO7Ik8hrpwy4USsU=",
-      "TIA.xitt1nkn45.wasm": "sha256-uZdQuCru0vBcSwk2HOEtjhYaa/6yBVXsbWnUXMGYOMU=",
+      "TIA.dzg5ny8le2.wasm": "sha256-xxtLnfb+gOqfkaX5dlr6+A5Yb/q9SyUv8Zmo0hVcg20=",
       "netstandard.072f2uhklr.wasm": "sha256-JL00DJI/b2DoocGus+vpJY7BtLjEbNJsGyISZE/pFAU="
     }
   },
